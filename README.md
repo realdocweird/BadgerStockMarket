@@ -7,15 +7,10 @@ BadgerStockMarket is a stock market that is based on the real stock market! The 
 ## Commands
 `/stocks` - Opens up the phone menu for the stocks
 ## Screenshots
-![Running /stocks](https://i.gyazo.com/94e8d2d10607ebb211e579f08878cd0f.gif)
+![Screen 1](https://cdn.discordapp.com/attachments/730420750661713963/731538155408326756/unknown.png)
 
-![Purchasing Stocks](https://i.gyazo.com/246c95870ce2724afab536fec21f8221.gif)
+![Screen 2](https://cdn.discordapp.com/attachments/730420750661713963/731538391908221008/unknown.png)
 
-![Selling Stocks on another page](https://i.gyazo.com/a14d4afda42421d2865bbe3cfc0a5764.gif)
-
-![Browsing Page](https://i.gyazo.com/515771f3f8f6ee85b8c1b63f5abe9fe3.gif)
-
-![All pages and turning off the phone](https://i.gyazo.com/15738ab69ea833af91f8eafbe16cdfe0.gif)
 
 ## Configuration
 ```
