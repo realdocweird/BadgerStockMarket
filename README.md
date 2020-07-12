@@ -16,10 +16,9 @@ BadgerStockMarket is a stock market that is based on the real stock market! The 
 ```
 Config = {
 	maxStocksOwned = {
-		['BadgerStockMarket.Stocks.Normal'] = 20,
-		['BadgerStockMarket.Stocks.Bronze'] = 100,
-		['BadgerStockMarket.Stocks.Silver'] = 500,
-		['BadgerStockMarket.Stocks.Gold'] = 99999999999999999999999999999999999999999999
+		['permission.whatever1'] = 20,
+		['permission.whatever2'] = 100,
+
 	},
 	stocks = {
 		['Apple Stock'] = {
