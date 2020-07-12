@@ -38,7 +38,7 @@ Config = {
 ```
 You must use https://money.cnn.com website for this to work properly (for each Stock). Add as many stocks as you would like :)
 
-`'BadgerStockMarket.Stocks.Normal'` is the permission node (ACE permission node) that a player has to have to have that many stocks. You can set up multiple different permission nodes and allow a certain number of stocks for different groups of people. Maybe donators get more stocks?
+You can use normal VRP groups permission, that a player has to have to have that many stocks. You can set up multiple different permission and allow a certain number of stocks for different groups of people. Maybe donators get more stocks?
 
 ## Liability Reasons
 For liability reasons, I wanted to include this at the bottom. BadgerStockMarket is in no way affiliated with the Stock Market and/or its proprieters. BadgerStockMarket was created as an educational tool to be used within the GTA V modification known as FiveM. BadgerStockMarket is also not affiliated with the Robinhood application. Although the script used the Robinhood logo. Once again, BadgerStockMarket was created as an educational tool. If anyone has a problem with this, please contact me and we can get the changes adjusted appropriately, thank you.
