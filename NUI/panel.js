@@ -182,8 +182,8 @@ $( function() {
                     $('#stock-tab-graphs').append('<img id="stock-graph-' + stockAbbrev + '" width="100%" ' + 
                         'style="" src="https:' + imgURL + '" />');
                     $('#stock-tab-graphs').append('<div class="buttons" id="buttons-' + stockAbbrev + '">' +
-                                '<button class="buy" onclick="buyStock(\'' + stockAbbrev + '\', ' + cost + ')">BUY</button>' +
-                                '<button class="sell" onclick="sellStock(\'' + stockAbbrev + '\', ' + cost + ')">SELL</button>' +
+                                '<button class="buy" onclick="buyStock(\'' + stockAbbrev + '\', ' + cost + ')">Buy</button>' +
+                                '<button class="sell" onclick="sellStock(\'' + stockAbbrev + '\', ' + cost + ')">Sell</button>' +
                             '</div>');
                 } else {
                     $('#stock-head-title').text(stockLabel);
@@ -192,8 +192,8 @@ $( function() {
                     $('#stock-tab-graphs').append('<img id="stock-graph-' + stockAbbrev + '" width="100%" ' + 
                         'style="display: none;" src="https:' + imgURL + '" />');
                     $('#stock-tab-graphs').append('<div class="buttons" id="buttons-' + stockAbbrev + '" style="display: none;">' +
-                                '<button class="buy" onclick="buyStock(\'' + stockAbbrev + '\', ' + cost + ')">BUY</button>' +
-                                '<button class="sell" onclick="sellStock(\'' + stockAbbrev + '\', ' + cost + ')">SELL</button>' +
+                                '<button class="buy" onclick="buyStock(\'' + stockAbbrev + '\', ' + cost + ')">Buy</button>' +
+                                '<button class="sell" onclick="sellStock(\'' + stockAbbrev + '\', ' + cost + ')">Sell</button>' +
                             '</div>');
                 }
                 /**/
@@ -225,11 +225,13 @@ function buyStock(stockAbbrev, costPer) {
     if (sendData("BadgerStocks:Buy", {stock: stockAbbrev, cost: costPer})) {
         // It was a valid buy
     }
+	clickHome()
 }
 function sellStock(stockAbbrev, costPer) {
     if (sendData("BadgerStocks:Sell", {stock: stockAbbrev, cost: costPer})) {
         // It was a valid sell
     }
+	clickHome()
 }
 function showCollections(topic) {
     $('#pStocks').children().each(function (index) {

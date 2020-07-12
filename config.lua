@@ -1,22 +1,34 @@
 Config = {
 	maxStocksOwned = {
-		['BadgerStockMarket.Stocks.Normal'] = 20,
-		['BadgerStockMarket.Stocks.Bronze'] = 100,
-		['BadgerStockMarket.Stocks.Silver'] = 500,
-		['BadgerStockMarket.Stocks.Gold'] = 99999999999999999999999999999999999999999999
+		["player.phone"] = 1000,
+		["palestra.vip"] = 2000,
 	},
 	stocks = {
-		['Apple Stock'] = {
-			link = 'https://money.cnn.com/quote/quote.html?symb=AAPL',
-			tags = {'Technology', 'Software'}
+		["Apple Stock"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=AAPL",
+			tags = {"Technology", "Software"}
 		},
-		['Citigroup Stock'] = {
-			link = 'https://money.cnn.com/quote/quote.html?symb=C',
-			tags = {'Bank'}
+		["Take-Two Stock"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=TTWO",
+			tags = {"Technology", "Software"}
 		},
-		['General Electric Stock'] = {
-			link = 'https://money.cnn.com/quote/quote.html?symb=GE',
-			tags = {'Automobiles', 'Vehicles', 'Cars'}
+		["Netflix Stock"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=NFLX",
+			tags = {"Intrattenimento", "Video"}
+		},
+		["Facebook Stock"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=FB",
+			tags = {"Technology", "Social"}
+		},
+		["Nvidia Stock"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=NVDA",
+			tags = {"Hardware"}
+		},
+		["BTC"] = {
+			link = "https://money.cnn.com/quote/quote.html?symb=BTC",
+			tags = {"Valute"}
 		}
 	}
 }
+
+return Config

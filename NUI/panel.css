@@ -204,9 +204,11 @@ div.graphPage div.item div.item-section button:hover {
 	opacity: .80;
 }
 div.graphPage div.item div.item-section button.sell {
+	font-family: "Impact", Charcoal, sans-serif;
 	background-color: #F45A36;
 }
 div.graphPage div.item div.item-section button.buy {
+	font-family: "Impact", Charcoal, sans-serif;
 	background-color: #23CF9D;
 }
 /* End Graph page */
@@ -284,9 +286,11 @@ div.dollarPage div.buttons button {
 	margin-top: 40px;
 }
 div.dollarPage div.buttons button.buy {
+	font-family: "Impact", Charcoal, sans-serif;
 	background-color: #2AD19D;
 }
 div.dollarPage div.buttons button.sell {
+	font-family: "Impact", Charcoal, sans-serif;
 	background-color: #F45A36;
 }
 div.dollarPage div.buttons button:hover {}
@@ -311,12 +315,12 @@ div.userPage h2 {
 	text-align: center;
 }
 div.userPage table {
-	font-size: 20px;
-	border-spacing: 15px;
+	font-size: 15px;
+	border-spacing: 45px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 63%;
+	width: 80%;
 	height: 85%;
 	display: block;
 	overflow-y: auto;
