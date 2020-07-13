@@ -45,4 +45,4 @@ For liability reasons, I wanted to include this at the bottom. BadgerStockMarket
 
 ## Download
 
-https://github.com/JaredScar/BadgerStockMarket
+https://github.com/realdocweird/BadgerStockMarket
